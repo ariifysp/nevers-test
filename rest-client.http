@@ -1,0 +1,24 @@
+POST http://localhost:3000/v1/manipulate
+content-type: application/json
+
+{
+    "input": "abc"
+}
+
+###
+
+POST http://localhost:3000/v1/odd
+content-type: application/json
+
+{
+    "input": [1, 2, 1, 2, 3, 1, 2, 1, 2, 1]
+}
+
+###
+
+POST http://localhost:3000/v1/smily
+content-type: application/json
+
+{
+    "input": [":)", ";(", ";}", ":-D", ";D", ":-(", ":-)", ";~)", ";]", ":[", ";*", ":$", ";-D"]
+}
